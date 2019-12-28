@@ -1,5 +1,6 @@
 import jenkins.model.*
 import hudson.security.*
+import hudson.security.GlobalMatrixAuthorizationStrategy
 
 def env = System.getenv()
 
